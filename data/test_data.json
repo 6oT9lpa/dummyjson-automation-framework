@@ -1,0 +1,52 @@
+{
+  "dummyjson": {
+    "auth": {
+      "valid_user": {
+        "username": "emilys",
+        "password_parts": ["emilys", "pass"],
+        "expiresInMins": 30
+      },
+      "wrong_password": "wrong-password",
+      "expected_user": {
+        "id": 1,
+        "username": "emilys",
+        "email": "emily.johnson@x.dummyjson.com",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "gender": "female",
+        "image": "https://dummyjson.com/icon/emilys/128"
+      }
+    },
+    "carts": {
+      "user_id": 1,
+      "cart_id": 1,
+      "missing_cart_id": 999999,
+      "product": {
+        "id": 1,
+        "quantity": 2
+      },
+      "updated_product": {
+        "id": 1,
+        "quantity": 3
+      }
+    },
+    "users": [
+      {
+        "first_name": "Alex",
+        "last_name": "Tester",
+        "email": "alex.tester@example.com",
+        "age": "30",
+        "salary": "5000",
+        "department": "Quality Assurance"
+      },
+      {
+        "first_name": "Maria",
+        "last_name": "Tester",
+        "email": "maria.tester@example.com",
+        "age": "28",
+        "salary": "6500",
+        "department": "Automation"
+      }
+    ]
+  }
+}
